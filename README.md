@@ -1,12 +1,12 @@
 # NetServer
 
-A C++ High Performance NetServer ()
+A C++ High Performance NetServer 
 
 
 
 ## Introduction  
 
-本项目为C++11编写的基于epoll的多线程网络服务器框架，应用层实现了简单的HTTP服务器HttpServer和一个回显服务器EchoServer，其中HTTP服务器实现了HTTP的解析和Get方法请求，目前支持静态资源访问，支持HTTP长连接；该框架不限于这两类服务器，用户可根据需要编写应用层服务。
+本项目为C++11编写的基于epoll的多线程网络服务器框架，应用层实现了简单的HTTP服务器HttpServer和一个回显服务器EchoServer，其中HTTP服务器实现了HTTP的解析和Get方法请求，该框架不限于这两类服务器，用户可根据需要编写应用层服务。
 
 ## Origin and purpose of the project
 * 项目起源：在看了陈硕老师的<<linux 多线程服务端编程:使用muduo c++ 网络库>>之后，借鉴了里面的一些思想，做了这个小项目
